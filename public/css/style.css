@@ -26,8 +26,9 @@ Main Components
 -------------------------------- */
 .cd-header {
   height: 80px;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0px auto;
+  background-color: #555;
   -webkit-transition: -webkit-transform 0.5s;
   -moz-transition: -moz-transform 0.5s;
   transition: transform 0.5s;
@@ -62,7 +63,8 @@ Main Components
   margin-top: 28px; }
 
 .cjlogo {
-  width: 85px; }
+  height: 45px;
+}
 
 .cd-3d-nav-trigger {
   position: relative;
@@ -353,14 +355,6 @@ main {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
-  main h1 {
-    text-align: center;
-    font-size: 2.4rem;
-    font-weight: 777;
-    color: #777;
-    margin: 2em auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
   main.nav-is-visible {
     -webkit-transform: translateY(80px);
     -moz-transform: translateY(80px);
@@ -374,6 +368,15 @@ main {
       -ms-transform: translateY(170px);
       -o-transform: translateY(170px);
       transform: translateY(170px); }
-    main h1 {
-      font-size: 7.6rem;
-      margin: 4em auto; } }
+     }
+
+.category_bar {
+  background-color: #777;
+}
+
+.footer {
+  background-color: #666;
+  position: fixed;
+  bottom: 0px;
+  height: 20px;
+}
