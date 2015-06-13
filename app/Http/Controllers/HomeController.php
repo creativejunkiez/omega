@@ -36,7 +36,7 @@ class HomeController extends Controller {
 		// if(Session::has('user_id')){
 		// 	return redirect('gameon');
 		// }else{
-			return view('index')->with('app_name',$app_name);
+			return view('base')->with('app_name',$app_name);
 		// }
 	}
 
